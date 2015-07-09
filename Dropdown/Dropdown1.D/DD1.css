@@ -1,0 +1,61 @@
+ 
+#nav {
+    font-family: "Source San Pro",sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+}
+ 
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /*removes bullet point*/
+}
+ 
+#nav a:link,
+#nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+ 
+#nav a {
+    display: block;
+    padding: 6px 10px;
+}
+ 
+#nav li {
+    float: left;  /*make in one line*/
+    background-color: #363C49;
+    margin-right: 15px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+ 
+#nav li li{
+    width: 160px; /*width of the 2nd li(1st dropdown)*/
+    margin-top:5px; /*margin of 1st dropdown to it's parent menu*/
+}
+ 
+#nav li:hover {
+    background-color: #555555;
+}
+#nav li li:hover {
+    background-color: #757575;
+}  
+ 
+ 
+#nav ul ul  {
+    position: absolute; /*without this,menu becomes 1000px hulk*/
+     /*without it,menu can't be hide*/
+}
+ 
+#nav ul ul ul{
+    left: 100%; /*makes element dropdown away from parent menu, can be right */
+    top: -5px; /*makes dropdown element lower or higher position*/
+    border: solid 1px transparent; /*make in one line*/
+}
+ 
+#nav li:hover > ul {
+    visibility: visible; /*without it,entire dropdown elements can't be seen*/
+}
+ 

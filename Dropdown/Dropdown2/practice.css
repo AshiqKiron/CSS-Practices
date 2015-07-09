@@ -1,0 +1,32 @@
+#cssmenu {
+	font-size: 14px;
+	font-style: arial;
+	font-weight: bold;
+	background: #2f333b;
+	border-bottom: 4px solid #86c932;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+#cssmenu ul {
+	color: #fff;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#cssmenu ul ul {
+	display: none;
+	padding: 10px 20px;
+}
+
+#cssmenu ul li {
+	background: #2f333b;
+	float: left;
+	margin-right: 5px;
+}
+
+#cssmenu ul li a {
+	padding: 10px 20;
+}

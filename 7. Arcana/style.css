@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Source Sans Pro", sans-serif;
+	letter-spacing: -0.025em;
+	color: #474747;
+}
+
+#header {
+	font-size: 75%;
+	text-align: center;
+	background-color: #fff;
+	padding-top: 2%;
+	background-image: url('background.png');
+}
+
+.logo {
+	text-decoration: none;
+}
+
+.logo:hover {
+	text-decoration: none;
+	color: #37C0FB;
+}
+
+.arcana {
+	font-weight: 700;
+	color: #474747;
+}
+
+.logo {
+	font-weight: 100;
+	color: #474747;
+}
+
+#nav {
+	background-color: #333;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+	list-style: none;
+	font-size: 1.5em;
+	margin-top: 4%;
+}
+
+#nav ul li {
+	display: inline-block;
+	padding: 1em;
+	padding-top: 1.3em;
+	padding-bottom: .5em;
+	color: #C0C0C0;
+}
+
+#nav ul li:hover {
+	color: #fff;
+}
+
+.filler {
+	background-color:#37C0FB;
+	height: 1em; 
+}
+
+a.home {
+	color: #fff;
+}
+
+#nav ul, #nav ul li {
+	list-style: none;
+}
+
+#nav ul li{
+	display:inline-block;
+	margin:0px 7px;
+}
+
+
+#nav ul li a{
+    padding:5px;
+    color:#ffffff;
+    display:inline-block;
+    text-decoration:none;
+}
+
+#nav ul li ul{
+    position:absolute;
+    display:none; 
+    text-decoration: none;
+	margin-top:0%;
+	margin-left:-4%;
+    width: 190px;
+    padding: 25px 0px;
+    border-radius: 5px;
+}
+
+#nav ul li:hover ul{
+    display:block;
+    background-color:#333;
+}
+
+#nav ul li ul li{
+    background-color:#333;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border-radius: 5%;
+}
+
+#nav ul li ul ul {
+	margin-left: 190px;
+	margin-top: -80px;
+	background: #fff;
+	background-color:#333;
+	padding-top: 20px;
+	display: none;
+}
+
+#nav ul li a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+/*
+
+
+.b {
+	display: inline-block;
+	float: left;
+}
+
+.c {
+	display: inline-block;
+	float: left;
+}
+
+.d {
+	display: inline-block;
+	float: left;
+}
+
+.e {
+	display: inline-block;
+	float: left;
+}
+
+
+.f {
+	display: inline-block;
+	float: left;
+}
+
+
+
+
+#nav a:hover {
+	color: #fff;
+}

@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#vline {
+	width:350px;
+	border:1px solid #666;
+	position:absolute;
+	top:38px;
+	left:0px;
+}
+
+#vline1 {
+	width:350px;
+	border:1px solid #666;
+	position:absolute;
+	top:42px;
+	left:0px;
+}
+#vline2 {
+	height:20px;
+	border:1px solid #666;
+	position:absolute;
+	top:30px;
+	left:350px;
+}
+
+#vline3 {
+	width:367px;
+	border:1px solid #666;
+	position:absolute;
+	top:35px;
+	right:0;
+	left:72.7%;
+	
+}
+
+#vline4 {
+	width:367px;
+	border:1px solid #666;
+	position:absolute;
+	top:40px;
+	right:0;
+	left:72.7%;
+}
+
+#vline5 {
+	height:20px;
+	border:1px solid #666;
+	position:absolute;
+	top:28px;
+	left:72.5%;
+	right:30%;
+}
+
+#vline6 {
+	width:300px;
+	margin:auto;
+	border:1px solid #666;
+	margin-top:2%;
+	
+}
+#vline7 {
+	width:300px;
+	margin:auto;
+	border:1px solid #666;
+	margin-top:.2%;
+}
+#vline8 {
+	height:20px;
+	border:1px solid #666;
+	margin-left:38.5%;
+	margin-right:63.5%;
+	margin-top:-15px;
+}
+
+#vline9 {
+	height:20px;
+	border:1px solid #666;
+	margin-left:61.3%;
+	margin-right:50%;
+	margin-top:-20px;
+}

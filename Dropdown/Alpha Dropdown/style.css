@@ -1,0 +1,135 @@
+.rightnav {
+ float:right;
+}
+
+
+.rightnav ul, .rightnav ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+.rightnav ul li{
+	display:inline-block;
+	margin:0px 10px;
+}
+
+.rightnav ul li:hover{
+    position:relative;
+    text-decoration: none;
+	color: #fff;
+}
+
+.rn1 ul li a{
+    padding:5px 15px;
+    color:#ffffff;
+    display:inline-block;
+    text-decoration:none;
+}
+
+.rightnav ul li ul{
+    position:absolute;
+    display:none; 
+    text-decoration: none;
+	margin-top:7px;
+	margin-left:-77px;
+    width: 170px;
+    padding: 5px 0;
+    border-radius: 5px;
+
+}
+
+
+
+.rightnav ul li:hover ul{
+    display:block;
+}
+
+.rightnav ul li ul li{
+    background-color:#fff;
+	display: block;
+	margin: 0;
+}
+
+.rightnav ul li ul ul {
+	margin-left: -170px;
+	margin-top: -35px;
+	background: #fff;
+}
+
+.rightnav ul li ul li:hover {
+	background: #e89980;
+}
+.rightnav ul li ul li:hover>a{
+	color: #fff;
+}
+.rn1 {
+	text-decoration: none;
+	padding-right: 2.5em;
+	color: #fff;
+}
+
+.signup a{
+	box-shadow:0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: -10px;
+}
+
+.signup a:hover {
+	background-color: rgba(255,255,255,0.1);
+}
+
+.rightnav ul li a {
+    padding: 9px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.rightnav ul li:hover a {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.rightnav ul li.rn:hover a {
+	background:none;
+}
+.rightnav ul li ul li a {
+    color: #999;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0;
+    padding: 8px 10px;
+}
+
+.rightnav .triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 7px 7px 7px;
+	border-color: transparent transparent #ffffff transparent;
+	display: block;
+	margin-left: 130px;
+	}
+	
+/*selects the first child of 2nd level li*/
+li.rn1>ul>li:nth-child(2) {
+    border-radius: 5px 5px 0 0;
+}
+
+/*selects the fifth child of 2nd level li*/
+li.rn1>ul>li:nth-child(5) {
+    border-radius:  0 0 5px 5px;
+}
+
+li.rn1>ul>li:nth-child(5) a {
+    border: none;
+}
+
+
+body {
+	background: #333;
+}

@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.part1 {
+		font-size: 12px;
+	}
+
+	#part2 {
+		font-size: 15px;
+	}
+
+	.c1d {
+		height: 60em;
+	}
+
+	.c1 {
+		font-size: 12px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.c1a {
+		font-size: 20px;
+	}
+
+	.c1e {
+		font-size: 12px;
+		width: 	130%;
+		text-align: justify;
+		height: 10px;
+		margin-left: -20px;
+		line-height: 15px;
+	}
+
+	.c1f {
+		font-size: 12px;
+		width: 	130%;
+		text-align: justify;
+		height: 10px;
+		margin-left: -20px;
+		line-height: 15px;
+		margin-top: 30em;
+	}
+
+	.c1g {
+		font-size: 12px;
+		width: 	130%;
+		text-align: justify;
+		height: 10px;
+		margin-left: -20px;
+		line-height: 15px;
+		margin-top: 30em;
+	}
+
+	.c2header{
+		font-size: 12px;
+	}
+
+	.c2col1 {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.c2p4 {
+		font-size: 18px;
+		line-height: 20px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.c2p5 {
+		font-size: 12px;
+		line-height: 20px; 
+	}
+
+	.c2p6 {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.c2button {
+		font-size: 12px;
+		margin-bottom: 5%;
+	}
+
+	.c2col2 {
+		width: 100%;
+		margin-left: -4%;
+		text-align: center;
+
+	}
+
+	.c2box1, .c2box2, .c2box3, .c2box4, .c2box5, .c2box6 {
+		height: 100px;
+	}
+}
+	
+	.c3header {
+		font-size: 12px;
+	}
+
+	.c3p1 {
+		font-size: 20px;
+	}
+
+	.c3box {
+		height: 100px;
+		width: 270px;
+		margin: 0 auto;
+	}
+
+	.c3wrapper  {
+		margin-left: -12%;
+	}

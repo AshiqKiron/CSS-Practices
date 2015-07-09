@@ -1,0 +1,16 @@
+block: This makes the element a block box. It won't let anything sit next to it on the page! It takes up the full width.
+
+inline-block: This makes the element a block box, but will allow other elements to sit next to it on the same line.
+
+inline: This makes the element sit on the same line as another element, but without formatting it like a block. It only takes up as much width as it needs (not the whole line).
+
+none: This makes the element and its content disappear from the page entirely!
+
+
+If you tell an element to clear: left, it will immediately move below any floating elements on the left side of the page; it can also clear elements on the right. If you tell it to clear: both, it will get out of the way of elements floating on the left and right!
+
+
+The first type of positioning is absolute positioning. When an element is set to position: absolute, it's then positioned in relation to the first parent element it has that doesn't have position: static. If there's no such element, the element with position: absolute gets positioned relative to <html>.
+
+Relative positioning is more straightforward: it tells the element to move relative to where it would have landed if it just had the default static positioning.
+

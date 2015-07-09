@@ -1,0 +1,223 @@
+/*@charset "utf-8";
+
+
+.fa {
+	display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 5px; 
+    vertical-align: middle;
+}
+
+.one a:hover {
+	background: #f99;
+	box-sizing:border-box;
+	
+}
+
+.navbar li:hover a {
+	display: inline-block;
+}
+
+.navbar {
+	text-align: center;
+}
+
+.navbar ul {
+	list-style: none;
+	display: inline-block;
+	padding: 0% 2%;
+}
+
+.navbar ul li {
+	float: left;
+	display: inline-block;
+}
+
+.navbar ul li a {
+	color: #B98080;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	margin-right: 80px;
+}
+
+.navbar ul li ul {
+  padding: 2% 1%;
+  width: 160px;
+  border-radius: 5px;
+}
+
+.navbar ul ul {
+	display: none;
+	position: absolute;
+}
+
+.navbar ul ul li a {
+	padding: 2px 0;
+	margin-top: 10px;
+	color:#F4ECEC;
+}
+
+.navbar ul ul li:hover a{
+	color: #fff;
+}
+
+Not clickable area but still holds the submenu while hovering 
+.navbar ul li:hover > ul {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    background: #5b7b8f;
+    top: 45px;
+    left: 260px;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+/*select 3rd level menu*/
+/*
+.navbar ul li:hover ul > li > ul{
+    display: none;   
+}
+
+
+.rightnav ul li:hover ul{
+    display:block;
+}
+
+.navbar ul ul li {
+	text-align: center;
+    bottom: -30%;
+    left: 120%;
+    top: 40%;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.navbar ul ul ul li:hover a {
+    color:#ff8;
+}
+
+
+
+
+
+
+.arrow_box {
+	position: relative;
+	background: #88b7d5;
+	margin-right:55%; 
+	margin-top: -12.9%;
+}
+.arrow_box:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #88b7d5;
+	border-width: 5px;
+	margin-left: -5px;
+}*/
+
+
+.navbar {
+	text-align: center;
+}
+
+.navbar ul {
+	display: inline;
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin: 2% 5% 0 0; 
+
+}
+
+.navbar ul li a {
+	list-style: none;
+	text-decoration: none;
+	color: #333;
+}
+
+.navbar ul li a:hover {
+	opacity: .4;
+}
+
+.navbar ul ul {
+	display: none;
+}
+
+.navbar ul > li > ul {
+    display: none;
+	
+}
+
+.navbar ul li:hover ul {
+	position: absolute;
+	display: inline-block;
+	width: 190px;
+	background: #999;
+	border-radius: .5em;
+	top: 9%;
+	padding: 2% 1%;
+}
+
+.navbar ul > ul > li a {
+	margin: 10px 5px;
+	float: left;
+}
+
+.navbar ul ul ul {
+	right: 20%;
+	margin-top: 80px;
+}
+
+
+.one > a:hover {
+	background: #f99;
+	box-sizing:border-box;
+}
+
+.one li {
+	float: left;
+}
+
+.one ul li {
+	margin: 6px 5px;
+}
+
+.navbar ul ul ul {
+	left: 100%;
+	top: 20%;
+	position: absolute;
+}
+
+.one ul ul ul a {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.navbar ul li:hover ul {
+	
+}
+
+
+
+.fa {
+	display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 5px; 
+    vertical-align: middle;
+}
